@@ -7,3 +7,24 @@ edition = "2018"
 [dependencies]
 regex = "1"
 lazy_static = "1.2.0"
+
+[package]
+
+description = "A simple Markdown->HTML parser."
+
+documentation = "https://github.com/Baidicoot/markdown-rs"
+homepage = "https://github.com/Baidicoot/markdown-rs"
+repository = "https://github.com/Baidicoot/markdown-rs"
+
+readme = "README.md"
+
+keywords = ["markdown", "html"]
+
+categories = ["parser-implementations", "web-programming"]
+
+license = "MIT"
+
+license-file = "LICENSE"
+[badges]
+
+appveyor = { repository = "https://github.com/Baidicoot/markdown-rs", branch = "master", service = "github" }
