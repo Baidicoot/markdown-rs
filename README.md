@@ -1,6 +1,6 @@
-#markdown.rs
+# markdown.rs
 This is a simple rust crate to parse (somewhat strict) markdown into HTML, and is partly a rustification of [Parse-MD.js](https://chalarangelo.github.io/parse-md-js/). Currently it can parse most aspects of markdown.
-##Accepted syntax:
+## Accepted syntax:
 - Headers are available via the `#` syntax:
 ```
 # H1
