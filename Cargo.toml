@@ -4,12 +4,6 @@ version = "0.1.0"
 authors = ["Aidan K. Ewart <aidanprattewart@gmail.com>"]
 edition = "2018"
 
-[dependencies]
-regex = "1"
-lazy_static = "1.2.0"
-
-[package]
-
 description = "A simple Markdown->HTML parser."
 
 documentation = "https://github.com/Baidicoot/markdown-rs"
@@ -25,6 +19,11 @@ categories = ["parser-implementations", "web-programming"]
 license = "MIT"
 
 license-file = "LICENSE"
+
+[dependencies]
+regex = "1"
+lazy_static = "1.2.0"
+
 [badges]
 
 appveyor = { repository = "https://github.com/Baidicoot/markdown-rs", branch = "master", service = "github" }
