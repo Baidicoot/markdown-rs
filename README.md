@@ -31,5 +31,6 @@ NB. List nesting is unsupported.
 ---
 ```
 - Line breaks are available with a double-enter.
-##License
+
+## License
 `markdown.rs` is licensed under the MIT License.
