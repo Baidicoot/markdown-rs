@@ -30,7 +30,7 @@ NB. List nesting is unsupported.
 ===
 ---
 ```
-- Line breaks are available with a double-enter.
+- Line breaks are currently unavailable.
 
 ## License
 `markdown.rs` is licensed under the MIT License.
